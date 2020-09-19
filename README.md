@@ -1,9 +1,14 @@
 # SuperBigData
 大数据全栈学习【又名超级大数据项目】
 
+### 大数据架构图
 ![.images/大数据平台架构图v3.5.png](.images/大数据平台架构图v3.5.png)
 
+### 大数据数据流
+![.images/架构.jpg](.images/架构.jpg)
+
 ### 模块
+
 ##### 1. collection【生态组件集合模块】
 
 ##### 2. apache-spark【Spark模块】
@@ -23,5 +28,3 @@
 
 ##### 12. common【公共模块】
 ##### 13. producer【生产者】
-
-![.images/架构.jpg](.images/架构.jpg)
