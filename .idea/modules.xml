@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SuperBigData.iml" filepath="$PROJECT_DIR$/SuperBigData.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apache-flink-java/apache-flink-java.iml" filepath="$PROJECT_DIR$/apache-flink-java/apache-flink-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apache-flink-scala/apache-flink-scala.iml" filepath="$PROJECT_DIR$/apache-flink-scala/apache-flink-scala.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apache-spark/apache-spark.iml" filepath="$PROJECT_DIR$/apache-spark/apache-spark.iml" />
+      <module fileurl="file://$PROJECT_DIR$/collection/collection.iml" filepath="$PROJECT_DIR$/collection/collection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/compute/compute.iml" filepath="$PROJECT_DIR$/compute/compute.iml" />
+      <module fileurl="file://$PROJECT_DIR$/off-line/off-line.iml" filepath="$PROJECT_DIR$/off-line/off-line.iml" />
+      <module fileurl="file://$PROJECT_DIR$/producer/producer.iml" filepath="$PROJECT_DIR$/producer/producer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/projects/projects.iml" filepath="$PROJECT_DIR$/projects/projects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/real-time/real-time.iml" filepath="$PROJECT_DIR$/real-time/real-time.iml" />
+      <module fileurl="file://$PROJECT_DIR$/services/services.iml" filepath="$PROJECT_DIR$/services/services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/storage/storage.iml" filepath="$PROJECT_DIR$/storage/storage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/visual/visual.iml" filepath="$PROJECT_DIR$/visual/visual.iml" />
+      <module fileurl="file://$PROJECT_DIR$/warehouse/warehouse.iml" filepath="$PROJECT_DIR$/warehouse/warehouse.iml" />
+    </modules>
+  </component>
+</project>

@@ -19,7 +19,6 @@
         <module>services</module>
         <module>producer</module>
         <module>warehouse</module>
-        <module>projects</module>
         <module>apache-flink-scala</module>
         <module>apache-flink-java</module>
         <module>apache-spark</module>
