@@ -19,14 +19,16 @@ object StreamWordCountScala {
         host = hostname
       }
     } catch {
-      case e: Exception => System.err.println("域名或IP未设置，使用默认localhost")
+      case e: Exception =>
+        System.err.println("域名或IP未设置，使用默认localhost")
     }
-    var port: Int = 9000
+    var port: Int = 9876
     try {
       val tool: ParameterTool = ParameterTool.fromArgs(args)
       port = tool.getInt("port")
     } catch {
-      case e: Exception => System.err.println("端口未设置，使用默认端口9999")
+      case e: Exception =>
+        System.err.println("端口未设置，使用默认端口9999")
     }
     val text = env.socketTextStream(host, port)
 
@@ -38,11 +40,11 @@ object StreamWordCountScala {
         .map((_,1))
         .keyBy(0)
         .sum(1)
-        .print()
-        .setParallelism(1); // timeWindow(Time.seconds(5))
+        .setParallelism(1)
+        .print(); // timeWindow(Time.seconds(5))
 
-    // 打印
-    text.print();
+    // 4. 执行
+    env.execute("Java WordCount from SocketTextStream Example")
 
   }
 

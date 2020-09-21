@@ -13,7 +13,7 @@ public class BatchWordCountJava {
         final ExecutionEnvironment env = ExecutionEnvironment.getExecutionEnvironment();
 
         // 2. 读入数据
-        String input = "/Users/iCocos/Desktop/BigData/SuperBigData/ApacheFlink/src/main/resources/input";
+        String input = "/Users/iCocos/Desktop/BigData/SuperBigData/input.txt";
         DataSource<String> text = env.readTextFile(input);
         //text.print();
 

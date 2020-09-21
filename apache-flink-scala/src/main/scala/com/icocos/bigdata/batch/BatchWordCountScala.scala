@@ -10,7 +10,7 @@ object BatchWordCountScala {
     val env = ExecutionEnvironment.getExecutionEnvironment;
 
     // 2. 读入数据
-    val input = "/Users/iCocos/Desktop/BigData/SuperBigData/ApacheFlink/src/main/resources/input";
+    val input = "/Users/iCocos/Desktop/BigData/SuperBigData/input.txt";
     val text = env.readTextFile(input);
 
     // 导入隐式转换
@@ -25,7 +25,7 @@ object BatchWordCountScala {
         .print();
 
     // 打印
-    text.print();
+    println("---------");
 
   }
 

@@ -26,7 +26,7 @@ public class StreamWordCountJava {
         } catch (Exception e) {
             System.err.println("域名或IP未设置，使用默认localhost");
         }
-        int port = 9000;
+        int port = 9876;
         try {
             ParameterTool tool = ParameterTool.fromArgs(args);
             port = tool.getInt("port");
@@ -46,7 +46,7 @@ public class StreamWordCountJava {
                     }
                 }
             }
-        }).keyBy(0).sum(1).print().setParallelism(1); // timeWindow(Time.seconds(5))
+        }).keyBy(0).sum(1).setParallelism(1).print(); // timeWindow(Time.seconds(5))
 
         // 4. 执行
         env.execute("Java WordCount from SocketTextStream Example");
