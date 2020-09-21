@@ -9,19 +9,21 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>common</module>
-        <module>real-time</module>
-        <module>off-line</module>
-        <module>collection</module>
-        <module>storage</module>
-        <module>compute</module>
-        <module>visual</module>
-        <module>services</module>
-        <module>producer</module>
-        <module>warehouse</module>
-        <module>apache-flink-scala</module>
         <module>apache-flink-java</module>
+        <module>apache-flink-pros</module>
+        <module>apache-flink-scala</module>
         <module>apache-spark</module>
+        <module>bigdata-projects</module>
+        <module>collection</module>
+        <module>common</module>
+        <module>compute</module>
         <module>linux-shell</module>
+        <module>off-line</module>
+        <module>producer</module>
+        <module>real-time</module>
+        <module>services</module>
+        <module>storage</module>
+        <module>visual</module>
+        <module>warehouse</module>
     </modules>
 </project>

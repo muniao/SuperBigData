@@ -4,8 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SuperBigData.iml" filepath="$PROJECT_DIR$/SuperBigData.iml" />
       <module fileurl="file://$PROJECT_DIR$/apache-flink-java/apache-flink-java.iml" filepath="$PROJECT_DIR$/apache-flink-java/apache-flink-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apache-flink-pros/apache-flink-pros.iml" filepath="$PROJECT_DIR$/apache-flink-pros/apache-flink-pros.iml" />
       <module fileurl="file://$PROJECT_DIR$/apache-flink-scala/apache-flink-scala.iml" filepath="$PROJECT_DIR$/apache-flink-scala/apache-flink-scala.iml" />
       <module fileurl="file://$PROJECT_DIR$/apache-spark/apache-spark.iml" filepath="$PROJECT_DIR$/apache-spark/apache-spark.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bigdata-projects/bigdata-projects.iml" filepath="$PROJECT_DIR$/bigdata-projects/bigdata-projects.iml" />
       <module fileurl="file://$PROJECT_DIR$/collection/collection.iml" filepath="$PROJECT_DIR$/collection/collection.iml" />
       <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
       <module fileurl="file://$PROJECT_DIR$/compute/compute.iml" filepath="$PROJECT_DIR$/compute/compute.iml" />

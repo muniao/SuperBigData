@@ -11,10 +11,13 @@
         <module name="storage" />
         <module name="apache-flink-scala" />
         <module name="visual" />
+        <module name="apache-flink-pros" />
         <module name="apache-spark" />
+        <module name="bigdata-projects" />
         <module name="collection" />
         <module name="apache-flink-java" />
         <module name="off-line" />
+        <module name="apache-flink-pro" />
         <module name="services" />
         <module name="compute" />
         <module name="projects" />
@@ -24,9 +27,13 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="apache-flink" target="1.8" />
       <module name="apache-flink-java" target="1.8" />
+      <module name="apache-flink-pro" target="1.5" />
+      <module name="apache-flink-pros" target="1.8" />
       <module name="apache-flink-scala" target="1.8" />
       <module name="apache-spark" target="1.5" />
+      <module name="bigdata-projects" target="1.5" />
       <module name="collection" target="1.5" />
       <module name="common" target="1.5" />
       <module name="compute" target="1.5" />

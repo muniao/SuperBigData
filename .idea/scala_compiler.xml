@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScalaCompilerConfiguration">
-    <profile name="Maven 1" modules="apache-flink-scala">
+    <profile name="Maven 1" modules="apache-flink,apache-flink-pros,apache-flink-scala">
       <parameters>
         <parameter value="-nobootcp" />
       </parameters>
     </profile>
+    <profile name="Maven 2" modules="flinkdemo" />
   </component>
 </project>
