@@ -6,20 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="apache-spark" />
+        <module name="real-time" />
         <module name="warehouse" />
         <module name="storage" />
         <module name="apache-flink-scala" />
         <module name="visual" />
+        <module name="apache-spark" />
         <module name="collection" />
         <module name="apache-flink-java" />
         <module name="off-line" />
         <module name="services" />
         <module name="compute" />
-        <module name="producer" />
         <module name="projects" />
+        <module name="linux-shell" />
         <module name="common" />
-        <module name="real-time" />
+        <module name="producer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -29,6 +30,7 @@
       <module name="collection" target="1.5" />
       <module name="common" target="1.5" />
       <module name="compute" target="1.5" />
+      <module name="linux-shell" target="1.5" />
       <module name="off-line" target="1.5" />
       <module name="producer" target="1.8" />
       <module name="projects" target="1.5" />

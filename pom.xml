@@ -22,5 +22,6 @@
         <module>apache-flink-scala</module>
         <module>apache-flink-java</module>
         <module>apache-spark</module>
+        <module>linux-shell</module>
     </modules>
 </project>
