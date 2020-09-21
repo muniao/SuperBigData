@@ -2,7 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90a70104-d045-4032-b1ae-c1e57f254983" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-flink-java/apache-flink-java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/apache-flink-java/apache-flink-java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-flink-java/src/main/java/com/icocos/bigdata/stream/StreamWordCountJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/apache-flink-java/src/main/java/com/icocos/bigdata/stream/StreamWordCountJava.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-flink-java/target/apache-flink-java-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/apache-flink-java/target/apache-flink-java-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-flink-java/target/classes/com/icocos/bigdata/stream/StreamWordCountJava$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/apache-flink-java/target/classes/com/icocos/bigdata/stream/StreamWordCountJava$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-flink-java/target/classes/com/icocos/bigdata/stream/StreamWordCountJava.class" beforeDir="false" afterPath="$PROJECT_DIR$/apache-flink-java/target/classes/com/icocos/bigdata/stream/StreamWordCountJava.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-flink-java/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/apache-flink-java/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-flink-java/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/apache-flink-java/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-flink-java/target/original-apache-flink-java-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/apache-flink-java/target/original-apache-flink-java-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-flink-scala/src/main/scala/com/icocos/bigdata/stream/StreamWordCountScala.scala" beforeDir="false" afterPath="$PROJECT_DIR$/apache-flink-scala/src/main/scala/com/icocos/bigdata/stream/StreamWordCountScala.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-flink-scala/target/apache-flink-scala-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/apache-flink-scala/target/apache-flink-scala-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-flink-scala/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/apache-flink-scala/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-flink-scala/target/original-apache-flink-scala-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/apache-flink-scala/target/original-apache-flink-scala-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collection/target/collection-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/collection/target/collection-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collection/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/collection/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collection/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compute/target/compute-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/compute/target/compute-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compute/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/compute/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compute/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/off-line/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/off-line/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/off-line/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/off-line/target/off-line-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/off-line/target/off-line-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/producer/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer/target/producer-1.0-SNAPSHOT-jar-with-dependencies.jar" beforeDir="false" afterPath="$PROJECT_DIR$/producer/target/producer-1.0-SNAPSHOT-jar-with-dependencies.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer/target/producer-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/producer/target/producer-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real-time/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/real-time/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real-time/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/real-time/target/real-time-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/real-time/target/real-time-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/services/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/target/services-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/services/target/services-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/storage/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/target/storage-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/storage/target/storage-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/visual/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual/target/visual-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/visual/target/visual-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/warehouse/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/warehouse/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/warehouse/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/warehouse/target/warehouse-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/warehouse/target/warehouse-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,12 +69,78 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.12875536" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/.images" />
     </key>
+  </component>
+  <component name="RunManager" selected="Application.StreamWordCountJava">
+    <configuration name="BatchWordCountJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.icocos.bigdata.batch.BatchWordCountJava" />
+      <module name="apache-flink-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.icocos.bigdata.batch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamWordCountJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.icocos.bigdata.stream.StreamWordCountJava" />
+      <module name="apache-flink-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.icocos.bigdata.stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamWordCountScala" type="Application" factoryName="Application" temporary="true">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.icocos.bigdata.stream.StreamWordCountScala" />
+      <module name="apache-flink-scala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.icocos.bigdata.stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.BatchWordCountJava" />
+      <item itemvalue="Application.StreamWordCountJava" />
+      <item itemvalue="Application.StreamWordCountScala" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.StreamWordCountJava" />
+        <item itemvalue="Application.StreamWordCountScala" />
+        <item itemvalue="Application.BatchWordCountJava" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -45,11 +152,70 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600510628272</updated>
-      <workItem from="1600510634540" duration="703000" />
+      <workItem from="1600510634540" duration="823000" />
+      <workItem from="1600676295176" duration="5240000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="74" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600679249435">
+      <screen x="0" y="23" width="1440" height="835" />
+    </state>
+    <state x="74" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.835/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600679249435" />
+    <state x="2213" y="85" key="#com.intellij.ide.util.MemberChooser" timestamp="1600677647389">
+      <screen x="1440" y="-157" width="1920" height="1057" />
+    </state>
+    <state x="2213" y="85" key="#com.intellij.ide.util.MemberChooser/0.23.1440.836/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600677647389" />
+    <state x="1929" y="89" width="1158" height="564" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1600676885863">
+      <screen x="1440" y="-157" width="1920" height="1057" />
+    </state>
+    <state x="1929" y="89" width="1158" height="564" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.23.1440.836/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600676885863" />
+    <state width="1878" height="285" key="GridCell.Tab.0.bottom" timestamp="1600681229336">
+      <screen x="1440" y="-157" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="285" key="GridCell.Tab.0.bottom/0.23.1440.835/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600681229336" />
+    <state width="1878" height="167" key="GridCell.Tab.0.bottom/0.23.1440.836/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600678528982" />
+    <state width="1878" height="285" key="GridCell.Tab.0.center" timestamp="1600681229335">
+      <screen x="1440" y="-157" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="285" key="GridCell.Tab.0.center/0.23.1440.835/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600681229335" />
+    <state width="1878" height="167" key="GridCell.Tab.0.center/0.23.1440.836/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600678528980" />
+    <state width="1878" height="285" key="GridCell.Tab.0.left" timestamp="1600681229335">
+      <screen x="1440" y="-157" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="285" key="GridCell.Tab.0.left/0.23.1440.835/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600681229335" />
+    <state width="1878" height="167" key="GridCell.Tab.0.left/0.23.1440.836/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600678528980" />
+    <state width="1878" height="285" key="GridCell.Tab.0.right" timestamp="1600681229336">
+      <screen x="1440" y="-157" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="285" key="GridCell.Tab.0.right/0.23.1440.835/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600681229336" />
+    <state width="1878" height="167" key="GridCell.Tab.0.right/0.23.1440.836/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600678528981" />
+    <state width="1878" height="358" key="GridCell.Tab.1.bottom" timestamp="1600678409696">
+      <screen x="1440" y="-157" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="358" key="GridCell.Tab.1.bottom/0.23.1440.836/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600678409696" />
+    <state width="1878" height="358" key="GridCell.Tab.1.center" timestamp="1600678409695">
+      <screen x="1440" y="-157" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="358" key="GridCell.Tab.1.center/0.23.1440.836/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600678409695" />
+    <state width="1878" height="358" key="GridCell.Tab.1.left" timestamp="1600678409695">
+      <screen x="1440" y="-157" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="358" key="GridCell.Tab.1.left/0.23.1440.836/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600678409695" />
+    <state width="1878" height="358" key="GridCell.Tab.1.right" timestamp="1600678409696">
+      <screen x="1440" y="-157" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="358" key="GridCell.Tab.1.right/0.23.1440.836/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600678409696" />
+    <state x="1938" y="33" key="Maven.ArtifactSearchDialog" timestamp="1600678475439">
+      <screen x="1440" y="-157" width="1920" height="1057" />
+    </state>
+    <state x="1938" y="33" key="Maven.ArtifactSearchDialog/0.23.1440.836/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600678475439" />
+    <state x="1440" y="-157" width="1920" height="1057" key="SettingsEditor" timestamp="1600677950408">
+      <screen x="1440" y="-157" width="1920" height="1057" />
+    </state>
+    <state x="1440" y="-157" width="1920" height="1057" key="SettingsEditor/0.23.1440.836/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600677950408" />
   </component>
 </project>

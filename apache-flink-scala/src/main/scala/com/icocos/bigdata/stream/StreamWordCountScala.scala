@@ -14,18 +14,19 @@ object StreamWordCountScala {
     var host = "localhost"
     try {
       val tool = ParameterTool.fromArgs(args)
-      host = tool.get("host")
+      val hostname = tool.get("host")
+      if (hostname.length != 0) {
+        host = hostname
+      }
     } catch {
-      case e: Exception =>
-        System.err.println("域名或IP未设置，使用默认localhost")
+      case e: Exception => System.err.println("域名或IP未设置，使用默认localhost")
     }
-    var port: Int = 9999
+    var port: Int = 9000
     try {
       val tool: ParameterTool = ParameterTool.fromArgs(args)
       port = tool.getInt("port")
     } catch {
-      case e: Exception =>
-        System.err.println("端口未设置，使用默认端口9999")
+      case e: Exception => System.err.println("端口未设置，使用默认端口9999")
     }
     val text = env.socketTextStream(host, port)
 

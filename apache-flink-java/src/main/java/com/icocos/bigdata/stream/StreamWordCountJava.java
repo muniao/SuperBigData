@@ -5,7 +5,6 @@ import org.apache.flink.api.java.tuple.Tuple2;
 import org.apache.flink.api.java.utils.ParameterTool;
 import org.apache.flink.streaming.api.datastream.DataStream;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
-import org.apache.flink.streaming.api.windowing.time.Time;
 import org.apache.flink.util.Collector;
 
 public class StreamWordCountJava {
@@ -20,11 +19,14 @@ public class StreamWordCountJava {
         String host = "localhost";
         try {
             ParameterTool tool = ParameterTool.fromArgs(args);
-            host = tool.get("host");
+            String hostname = tool.get("host");
+            if (hostname.length() !=0 ){
+                host = hostname;
+            }
         } catch (Exception e) {
             System.err.println("域名或IP未设置，使用默认localhost");
         }
-        int port = 9999;
+        int port = 9000;
         try {
             ParameterTool tool = ParameterTool.fromArgs(args);
             port = tool.getInt("port");
