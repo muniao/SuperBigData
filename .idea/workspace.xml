@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90a70104-d045-4032-b1ae-c1e57f254983" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/apache-flink-pros/src/main/java/dataset/DataSetSourceJava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apache-flink-pros/src/main/scala/dataset/DataSetSourceScala.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apache-flink-pros/src/main/java/WCBatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/apache-flink-pros/src/main/java/WCBatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apache-flink-pros/target/classes/WCBatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/apache-flink-pros/target/classes/WCBatch.class" afterDir="false" />
-    </list>
+    <list default="true" id="90a70104-d045-4032-b1ae-c1e57f254983" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -153,7 +148,7 @@
       <workItem from="1600510634540" duration="823000" />
       <workItem from="1600676295176" duration="7287000" />
       <workItem from="1600686850329" duration="5061000" />
-      <workItem from="1600750463637" duration="2077000" />
+      <workItem from="1600750463637" duration="2692000" />
     </task>
     <servers />
   </component>
