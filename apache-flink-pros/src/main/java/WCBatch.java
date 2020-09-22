@@ -8,8 +8,7 @@ public class WCBatch {
         //获取flink运行环境 坑：需要flink_clients客户端
         ExecutionEnvironment env = ExecutionEnvironment.getExecutionEnvironment();
         //读取数据源 读取集合数据fromElements 读取本地文件readTextFile 实际返回类型是DataSource是DataSet抽象类子类
-        DataSet<String> ds = env.fromElements("Who's there?",
-                "I think I hear them. Stand, ho! Who's there?");
+        DataSet<String> ds = env.fromElements("Who's there?","I think I hear them. Stand, ho! Who's there?");
 //        env.readTextFile("");
         //计算 flatMap -> groupBy -> sum
         //优化new FlatMapFuntion(...)为lambda表达式
