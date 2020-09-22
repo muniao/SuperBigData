@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90a70104-d045-4032-b1ae-c1e57f254983" name="Default Changelist" comment="" />
+    <list default="true" id="90a70104-d045-4032-b1ae-c1e57f254983" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -149,6 +151,7 @@
       <workItem from="1600676295176" duration="7287000" />
       <workItem from="1600686850329" duration="5061000" />
       <workItem from="1600750463637" duration="2900000" />
+      <workItem from="1600768273027" duration="416000" />
     </task>
     <servers />
   </component>
@@ -246,9 +249,9 @@
       <screen x="1440" y="-157" width="1920" height="1057" />
     </state>
     <state x="2106" y="-32" width="588" height="807" key="find.popup/0.23.1440.833/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600751340880" />
-    <state x="1838" y="12" key="new project wizard" timestamp="1600690200514">
+    <state x="1838" y="12" key="new project wizard" timestamp="1600768289689">
       <screen x="1440" y="-157" width="1920" height="1057" />
     </state>
-    <state x="1838" y="12" key="new project wizard/0.23.1440.833/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600690200514" />
+    <state x="1838" y="12" key="new project wizard/0.23.1440.833/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600768289689" />
   </component>
 </project>

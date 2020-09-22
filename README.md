@@ -2,10 +2,10 @@
 大数据全栈学习【又名超级大数据项目】
 
 ### 大数据架构图
-![.images/大数据平台架构图v3.5.png](.images/大数据平台架构图v3.5.png)
+![https://github.com/al1020119/SuperBigData/blob/master/.images/大数据平台架构图v3.5.png](.images/大数据平台架构图v3.5.png)
 
 ### 大数据数据流
-![.images/架构.jpg](.images/架构.jpg)
+![https://github.com/al1020119/SuperBigData/blob/master/.images/架构.jpg](.images/架构.jpg)
 
 ### 模块
 
