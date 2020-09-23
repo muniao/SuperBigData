@@ -8,7 +8,7 @@ object DataSetTransformationScala {
 
   def main(args: Array[String]): Unit = {
     val env = ExecutionEnvironment.getExecutionEnvironment
-    mapFunction(env)
+//    mapFunction(env)
     filterFunction(env)
     mappartitionFunction(env)
     firstFunction(env)
@@ -44,6 +44,7 @@ object DataSetTransformationScala {
    * mappartition
    */
   def mappartitionFunction(env: ExecutionEnvironment) {
+    val data = env.fromCollection(List(1,2,3,4,5,6,7,8,9))
 
   }
 

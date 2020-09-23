@@ -12,7 +12,7 @@ public class DataSetTransformationJava {
 
     public static void main(String[] args) throws Exception {
         ExecutionEnvironment env = ExecutionEnvironment.getExecutionEnvironment();
-        mapFunction(env);
+//        mapFunction(env);
         filterFunction(env);
         mappartitionFunction(env);
         firstFunction(env);
