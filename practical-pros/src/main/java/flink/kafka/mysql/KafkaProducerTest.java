@@ -7,6 +7,9 @@ import org.apache.kafka.clients.producer.KafkaProducer;
 import java.util.Properties;
 import java.util.Random;
 
+/**
+ * @author iCocos
+ */
 public class KafkaProducerTest {
     public static void main(String[] args) {
         Producer();

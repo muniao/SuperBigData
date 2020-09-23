@@ -16,7 +16,6 @@
         <module name="collection" />
         <module name="apache-flink-java" />
         <module name="off-line" />
-        <module name="bigdata-projects" />
         <module name="practical-pros" />
         <module name="compute" />
         <module name="producer" />
@@ -45,7 +44,7 @@
       <module name="compute" target="1.5" />
       <module name="linux-shell" target="1.5" />
       <module name="off-line" target="1.5" />
-      <module name="practical-pros" target="1.5" />
+      <module name="practical-pros" target="6" />
       <module name="producer" target="1.8" />
       <module name="projects" target="1.5" />
       <module name="real-time" target="1.5" />

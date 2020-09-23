@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90a70104-d045-4032-b1ae-c1e57f254983" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/practical-pros/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practical-pros/practical-pros.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apache-flink-pros/apache-flink-pros.iml" beforeDir="false" afterPath="$PROJECT_DIR$/apache-flink-pros/apache-flink-pros.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apache-flink-scala/apache-flink-scala.iml" beforeDir="false" afterPath="$PROJECT_DIR$/apache-flink-scala/apache-flink-scala.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigdata-projects/bigdata-projects.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigdata-projects/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practical-pros/practical-pros.iml" beforeDir="false" afterPath="$PROJECT_DIR$/practical-pros/practical-pros.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practical-pros/src/main/java/flink/kafka/mysql/KafkaProducerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/practical-pros/src/main/java/flink/kafka/mysql/KafkaProducerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practical-pros/src/main/java/flink/kafka/mysql/KafkaSinkMysql.java" beforeDir="false" afterPath="$PROJECT_DIR$/practical-pros/src/main/java/flink/kafka/mysql/KafkaSinkMysql.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +70,7 @@
       <recent name="$PROJECT_DIR$/.images" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DataSetSourceScala">
+  <component name="RunManager" selected="Application.KafkaSinkMysql">
     <configuration name="DataSetSource" type="Application" factoryName="Application" temporary="true">
       <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
       <option name="MAIN_CLASS_NAME" value="dataset.DataSetSourceJava" />
@@ -103,6 +99,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="KafkaProducerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="flink.kafka.mysql.KafkaProducerTest" />
+      <module name="practical-pros" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="flink.kafka.mysql.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KafkaSinkMysql" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="flink.kafka.mysql.KafkaSinkMysql" />
+      <module name="practical-pros" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="flink.kafka.mysql.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WCBatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
       <option name="MAIN_CLASS_NAME" value="WCBatch" />
@@ -111,36 +135,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WCBatchScala" type="Application" factoryName="Application" temporary="true">
-      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
-      <option name="MAIN_CLASS_NAME" value="WCBatchScala" />
-      <module name="apache-flink-pros" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WCStreaming" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
-      <option name="MAIN_CLASS_NAME" value="WCStreaming" />
-      <module name="apache-flink-pros" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.WCBatch" />
-      <item itemvalue="Application.WCBatchScala" />
-      <item itemvalue="Application.WCStreaming" />
       <item itemvalue="Application.DataSetSource" />
       <item itemvalue="Application.DataSetSourceScala" />
+      <item itemvalue="Application.KafkaSinkMysql" />
+      <item itemvalue="Application.KafkaProducerTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KafkaSinkMysql" />
+        <item itemvalue="Application.KafkaProducerTest" />
         <item itemvalue="Application.DataSetSourceScala" />
         <item itemvalue="Application.DataSetSource" />
         <item itemvalue="Application.WCBatch" />
-        <item itemvalue="Application.WCBatchScala" />
-        <item itemvalue="Application.WCStreaming" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +167,7 @@
       <workItem from="1600686850329" duration="5061000" />
       <workItem from="1600750463637" duration="2900000" />
       <workItem from="1600768273027" duration="416000" />
-      <workItem from="1600849603466" duration="1257000" />
+      <workItem from="1600849603466" duration="2236000" />
     </task>
     <servers />
   </component>
@@ -172,11 +180,12 @@
     </state>
     <state x="1888" y="-47" key="#Project_Structure/0.23.1440.833/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600690355175" />
     <state x="336" y="23" key="#Project_Structure/0.23.1440.835@0.23.1440.835" timestamp="1600850203573" />
-    <state x="1539" y="-80" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600751993268">
-      <screen x="1440" y="-157" width="1920" height="1057" />
+    <state x="74" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600851193211">
+      <screen x="0" y="23" width="1440" height="835" />
     </state>
     <state x="1539" y="-80" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.833/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600751993268" />
     <state x="74" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.835/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600683405147" />
+    <state x="74" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.835@0.23.1440.835" timestamp="1600851193211" />
     <state x="2141" y="293" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog" timestamp="1600690642357">
       <screen x="1440" y="-157" width="1920" height="1057" />
     </state>
@@ -190,29 +199,33 @@
       <screen x="1440" y="-157" width="1920" height="1057" />
     </state>
     <state x="1929" y="89" width="1158" height="564" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.23.1440.836/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600676885863" />
-    <state width="1878" height="358" key="GridCell.Tab.0.bottom" timestamp="1600753436485">
-      <screen x="1440" y="-157" width="1920" height="1057" />
+    <state width="1398" height="121" key="GridCell.Tab.0.bottom" timestamp="1600851845928">
+      <screen x="0" y="23" width="1440" height="835" />
     </state>
     <state width="1878" height="358" key="GridCell.Tab.0.bottom/0.23.1440.833/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600753436485" />
     <state width="1878" height="474" key="GridCell.Tab.0.bottom/0.23.1440.835/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600683592986" />
+    <state width="1398" height="121" key="GridCell.Tab.0.bottom/0.23.1440.835@0.23.1440.835" timestamp="1600851845928" />
     <state width="1878" height="392" key="GridCell.Tab.0.bottom/0.23.1440.836/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600681839750" />
-    <state width="1878" height="358" key="GridCell.Tab.0.center" timestamp="1600753436484">
-      <screen x="1440" y="-157" width="1920" height="1057" />
+    <state width="1398" height="121" key="GridCell.Tab.0.center" timestamp="1600851845927">
+      <screen x="0" y="23" width="1440" height="835" />
     </state>
     <state width="1878" height="358" key="GridCell.Tab.0.center/0.23.1440.833/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600753436484" />
     <state width="1878" height="474" key="GridCell.Tab.0.center/0.23.1440.835/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600683592985" />
+    <state width="1398" height="121" key="GridCell.Tab.0.center/0.23.1440.835@0.23.1440.835" timestamp="1600851845927" />
     <state width="1878" height="392" key="GridCell.Tab.0.center/0.23.1440.836/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600681839750" />
-    <state width="1878" height="358" key="GridCell.Tab.0.left" timestamp="1600753436484">
-      <screen x="1440" y="-157" width="1920" height="1057" />
+    <state width="1398" height="121" key="GridCell.Tab.0.left" timestamp="1600851845927">
+      <screen x="0" y="23" width="1440" height="835" />
     </state>
     <state width="1878" height="358" key="GridCell.Tab.0.left/0.23.1440.833/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600753436484" />
     <state width="1878" height="474" key="GridCell.Tab.0.left/0.23.1440.835/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600683592985" />
+    <state width="1398" height="121" key="GridCell.Tab.0.left/0.23.1440.835@0.23.1440.835" timestamp="1600851845927" />
     <state width="1878" height="392" key="GridCell.Tab.0.left/0.23.1440.836/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600681839749" />
-    <state width="1878" height="358" key="GridCell.Tab.0.right" timestamp="1600753436485">
-      <screen x="1440" y="-157" width="1920" height="1057" />
+    <state width="1398" height="121" key="GridCell.Tab.0.right" timestamp="1600851845927">
+      <screen x="0" y="23" width="1440" height="835" />
     </state>
     <state width="1878" height="358" key="GridCell.Tab.0.right/0.23.1440.833/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600753436485" />
     <state width="1878" height="474" key="GridCell.Tab.0.right/0.23.1440.835/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600683592985" />
+    <state width="1398" height="121" key="GridCell.Tab.0.right/0.23.1440.835@0.23.1440.835" timestamp="1600851845927" />
     <state width="1878" height="392" key="GridCell.Tab.0.right/0.23.1440.836/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600681839750" />
     <state width="1878" height="358" key="GridCell.Tab.1.bottom" timestamp="1600753436486">
       <screen x="1440" y="-157" width="1920" height="1057" />
