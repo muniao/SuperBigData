@@ -23,6 +23,5 @@
         <module>storage</module>
         <module>visual</module>
         <module>warehouse</module>
-        <module>practical-pros</module>
     </modules>
 </project>

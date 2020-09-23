@@ -9,11 +9,11 @@ import java.util.List;
 public class DataSetSourceJava {
     public static void main(String[] args) throws Exception {
         ExecutionEnvironment env = ExecutionEnvironment.getExecutionEnvironment();
-        //fromCollection(env)
-        //fromTextFile(env)
-        //fromCSVFile(env)
-        //fromResvFile(env)
-        //fromZipFile(env)
+        fromCollection(env);
+        fromTextFile(env);
+        fromCSVFile(env);
+        fromResvFile(env);
+        fromZipFile(env);
     }
 
     /**

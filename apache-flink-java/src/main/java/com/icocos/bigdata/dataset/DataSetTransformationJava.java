@@ -1,10 +1,16 @@
 package com.icocos.bigdata.dataset;
 
+import org.apache.flink.api.common.functions.FilterFunction;
+import org.apache.flink.api.common.functions.MapFunction;
 import org.apache.flink.api.java.ExecutionEnvironment;
+import org.apache.flink.api.java.operators.DataSource;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class DataSetTransformationJava {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         ExecutionEnvironment env = ExecutionEnvironment.getExecutionEnvironment();
         mapFunction(env);
         filterFunction(env);
@@ -20,14 +26,40 @@ public class DataSetTransformationJava {
     /**
      * map
      */
-    public static void mapFunction(ExecutionEnvironment env) {
-        
+    public static void mapFunction(ExecutionEnvironment env) throws Exception {
+        List<Integer> list = new ArrayList<>();
+        for (int i=1; i <=100; i++) {
+            list.add(i);
+        }
+        DataSource<Integer> dataSource = env.fromCollection(list);
+        dataSource.map(new MapFunction<Integer, Integer>() {
+            @Override
+            public Integer map(Integer value) throws Exception {
+                return value + 1;
+            }
+        }).print();
     }
 
     /**
      * filter
      */
-    public static void filterFunction(ExecutionEnvironment env) {
+    public static void filterFunction(ExecutionEnvironment env) throws Exception {
+        List<Integer> list = new ArrayList<>();
+        for (int i=1; i <=100; i++) {
+            list.add(i);
+        }
+        DataSource<Integer> dataSource = env.fromCollection(list);
+        dataSource.map(new MapFunction<Integer, Integer>() {
+            @Override
+            public Integer map(Integer value) throws Exception {
+                return value + 1;
+            }
+        }).filter(new FilterFunction<Integer>() {
+            @Override
+            public boolean filter(Integer value) throws Exception {
+                return value > 5;
+            }
+        }).print();
 
     }
 

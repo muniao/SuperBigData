@@ -26,14 +26,18 @@ object DataSetTransformationScala {
     val data = env.fromCollection(List(1,2,3,4,5,6,7,8,9))
     data.map((x: Int) => x + 1).print()
     data.map((x) => x + 1).print()
-    data.map { x => x + 1 }.print()
+    data.map(x => x + 1).print()
+    data.map( _ + 1).print()
+    data.map{ x => x + 1 }.print()
+    data.map{ _ + 1 }.print()
   }
 
   /**
    * filter
    */
   def filterFunction(env: ExecutionEnvironment) {
-
+    val data = env.fromCollection(List(1,2,3,4,5,6,7,8,9))
+    data.map(_ + 1).filter( _ > 5).print()
   }
 
   /**

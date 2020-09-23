@@ -7,11 +7,11 @@ object DataSetSourceScala {
 
   def main(args: Array[String]): Unit = {
     val env = ExecutionEnvironment.getExecutionEnvironment
-    //fromCollection(env)
-    //fromTextFile(env)
-    //fromCSVFile(env)
-    //fromResvFile(env)
-    //fromZipFile(env)
+    fromCollection(env)
+    fromTextFile(env)
+    fromCSVFile(env)
+    fromResvFile(env)
+    fromZipFile(env)
   }
 
   /**
