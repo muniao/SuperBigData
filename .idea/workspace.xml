@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90a70104-d045-4032-b1ae-c1e57f254983" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/apache-flink-pros/src/main/java/PojoPerson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apache-flink-pros/src/main/java/dataset/DataSetTransformationJava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apache-flink-pros/src/main/scala/dataset/DataSetTransformationScala.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apache-flink-pros/src/main/java/dataset/DataSetSourceJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/apache-flink-pros/src/main/java/dataset/DataSetSourceJava.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apache-flink-pros/src/main/scala/dataset/DataSetSourceScala.scala" beforeDir="false" afterPath="$PROJECT_DIR$/apache-flink-pros/src/main/scala/dataset/DataSetSourceScala.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practical-pros/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practical-pros/practical-pros.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-flink-pros/apache-flink-pros.iml" beforeDir="false" afterPath="$PROJECT_DIR$/apache-flink-pros/apache-flink-pros.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-flink-scala/apache-flink-scala.iml" beforeDir="false" afterPath="$PROJECT_DIR$/apache-flink-scala/apache-flink-scala.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata-projects/bigdata-projects.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata-projects/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,19 +58,20 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/linux-shell/src/main/java" />
-      <recent name="$PROJECT_DIR$/.images" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/apache-flink-pros/src/main/java" />
       <recent name="$PROJECT_DIR$/apache-flink-pros" />
       <recent name="$PROJECT_DIR$/apache-flink-pros/src/test" />
       <recent name="$PROJECT_DIR$/apache-flink-pros/src/main" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/bigdata-projects" />
+      <recent name="$PROJECT_DIR$/linux-shell/src/main/java" />
+      <recent name="$PROJECT_DIR$/.images" />
     </key>
   </component>
   <component name="RunManager" selected="Application.DataSetSourceScala">
@@ -156,6 +159,7 @@
       <workItem from="1600686850329" duration="5061000" />
       <workItem from="1600750463637" duration="2900000" />
       <workItem from="1600768273027" duration="416000" />
+      <workItem from="1600849603466" duration="1257000" />
     </task>
     <servers />
   </component>
@@ -163,10 +167,11 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1888" y="-47" key="#Project_Structure" timestamp="1600690355175">
-      <screen x="1440" y="-157" width="1920" height="1057" />
+    <state x="336" y="23" key="#Project_Structure" timestamp="1600850203573">
+      <screen x="0" y="23" width="1440" height="835" />
     </state>
     <state x="1888" y="-47" key="#Project_Structure/0.23.1440.833/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600690355175" />
+    <state x="336" y="23" key="#Project_Structure/0.23.1440.835@0.23.1440.835" timestamp="1600850203573" />
     <state x="1539" y="-80" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600751993268">
       <screen x="1440" y="-157" width="1920" height="1057" />
     </state>
@@ -254,9 +259,10 @@
       <screen x="1440" y="-157" width="1920" height="1057" />
     </state>
     <state x="2106" y="-32" width="588" height="807" key="find.popup/0.23.1440.833/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600751340880" />
-    <state x="1838" y="12" key="new project wizard" timestamp="1600768289689">
-      <screen x="1440" y="-157" width="1920" height="1057" />
+    <state x="176" y="157" key="new project wizard" timestamp="1600849736894">
+      <screen x="0" y="23" width="1440" height="835" />
     </state>
     <state x="1838" y="12" key="new project wizard/0.23.1440.833/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600768289689" />
+    <state x="176" y="157" key="new project wizard/0.23.1440.835@0.23.1440.835" timestamp="1600849736894" />
   </component>
 </project>

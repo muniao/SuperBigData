@@ -8,22 +8,28 @@
         <outputRelativeToContentRoot value="true" />
         <module name="real-time" />
         <module name="warehouse" />
-        <module name="storage" />
+        <module name="apache-flink-pro" />
         <module name="apache-flink-scala" />
         <module name="visual" />
-        <module name="apache-flink-pros" />
+        <module name="storage" />
         <module name="apache-spark" />
-        <module name="bigdata-projects" />
         <module name="collection" />
         <module name="apache-flink-java" />
         <module name="off-line" />
-        <module name="apache-flink-pro" />
-        <module name="services" />
+        <module name="bigdata-projects" />
+        <module name="practical-pros" />
         <module name="compute" />
+        <module name="producer" />
         <module name="projects" />
         <module name="linux-shell" />
         <module name="common" />
-        <module name="producer" />
+        <module name="services" />
+      </profile>
+      <profile name="Annotation profile for SuperBigData" enabled="true">
+        <sourceOutputDir name="../apache-flink-scala/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../apache-flink-scala/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="apache-flink-pros" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -39,6 +45,7 @@
       <module name="compute" target="1.5" />
       <module name="linux-shell" target="1.5" />
       <module name="off-line" target="1.5" />
+      <module name="practical-pros" target="1.5" />
       <module name="producer" target="1.8" />
       <module name="projects" target="1.5" />
       <module name="real-time" target="1.5" />
