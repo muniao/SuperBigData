@@ -1,6 +1,7 @@
 package dataset;
 
 import org.apache.flink.api.java.ExecutionEnvironment;
+import org.apache.flink.configuration.Configuration;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,8 +9,11 @@ import java.util.List;
 public class DataSetSourceJava {
     public static void main(String[] args) throws Exception {
         ExecutionEnvironment env = ExecutionEnvironment.getExecutionEnvironment();
-        //fromCollection(env);
-        fromTextFile(env);
+        //fromCollection(env)
+        //fromTextFile(env)
+        //fromCSVFile(env)
+        //fromResvFile(env)
+        //fromZipFile(env)
     }
 
     /**
@@ -35,21 +39,26 @@ public class DataSetSourceJava {
      * 从CSV文件创建
      */
     public static void fromCSVFile(ExecutionEnvironment env) throws Exception {
-
+        String filePath = "/Users/iCocos/Desktop/BigData/SuperBigData/input.csv";
+        env.readCsvFile(filePath);
     }
 
     /**
      * 从递归文件创建
      */
     public static void fromResvFile(ExecutionEnvironment env) throws Exception {
-
+        String filePath = "/Users/iCocos/Desktop/BigData/SuperBigData";
+        Configuration parameters = new Configuration();
+        parameters.setBoolean("recuresive.file.enumeration",true);
+        env.readTextFile(filePath).withParameters(parameters).print();
     }
 
     /**
      * 从压缩文件创建
      */
     public static void fromZipFile(ExecutionEnvironment env) throws Exception {
-
+        String filePath = "/Users/iCocos/Desktop/BigData/SuperBigData/input.zip";
+        env.readTextFile(filePath).print();
     }
 
 }
