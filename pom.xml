@@ -10,7 +10,6 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>apache-flink-java</module>
-        <module>apache-flink-pros</module>
         <module>apache-flink-scala</module>
         <module>apache-spark</module>
         <module>collection</module>
@@ -18,7 +17,6 @@
         <module>compute</module>
         <module>linux-shell</module>
         <module>off-line</module>
-        <module>practical-pros</module>
         <module>producer</module>
         <module>real-time</module>
         <module>services</module>

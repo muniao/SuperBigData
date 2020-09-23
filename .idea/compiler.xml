@@ -9,26 +9,26 @@
         <module name="real-time" />
         <module name="warehouse" />
         <module name="apache-flink-pro" />
-        <module name="apache-flink-scala" />
         <module name="visual" />
         <module name="storage" />
+        <module name="flink-kafka-mysql" />
         <module name="apache-spark" />
+        <module name="apache-flink-pros" />
         <module name="collection" />
+        <module name="linux-shell" />
         <module name="apache-flink-java" />
         <module name="off-line" />
-        <module name="practical-pros" />
-        <module name="compute" />
-        <module name="producer" />
-        <module name="projects" />
-        <module name="linux-shell" />
-        <module name="common" />
         <module name="services" />
+        <module name="compute" />
+        <module name="projects" />
+        <module name="common" />
+        <module name="producer" />
       </profile>
       <profile name="Annotation profile for SuperBigData" enabled="true">
-        <sourceOutputDir name="../apache-flink-scala/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../apache-flink-scala/target/generated-test-sources/test-annotations" />
+        <sourceOutputDir name="../apache-flink-pros/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../apache-flink-pros/target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="apache-flink-pros" />
+        <module name="apache-flink-scala" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -42,6 +42,7 @@
       <module name="collection" target="1.5" />
       <module name="common" target="1.5" />
       <module name="compute" target="1.5" />
+      <module name="flink-kafka-mysql" target="6" />
       <module name="linux-shell" target="1.5" />
       <module name="off-line" target="1.5" />
       <module name="practical-pros" target="6" />
