@@ -3,8 +3,6 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/apache-flink-java/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/apache-flink-java/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/apache-flink-pros/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/apache-flink-pros/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/apache-flink-scala/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/apache-spark/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/apache-spark/src/main/resources" charset="UTF-8" />
