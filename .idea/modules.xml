@@ -13,7 +13,6 @@
       <module fileurl="file://$PROJECT_DIR$/practical-pros/flink-kafka-mysql.iml" filepath="$PROJECT_DIR$/practical-pros/flink-kafka-mysql.iml" />
       <module fileurl="file://$PROJECT_DIR$/linux-shell/linux-shell.iml" filepath="$PROJECT_DIR$/linux-shell/linux-shell.iml" />
       <module fileurl="file://$PROJECT_DIR$/off-line/off-line.iml" filepath="$PROJECT_DIR$/off-line/off-line.iml" />
-      <module fileurl="file://$PROJECT_DIR$/practical-pros/practical-pros.iml" filepath="$PROJECT_DIR$/practical-pros/practical-pros.iml" />
       <module fileurl="file://$PROJECT_DIR$/producer/producer.iml" filepath="$PROJECT_DIR$/producer/producer.iml" />
       <module fileurl="file://$PROJECT_DIR$/projects/projects.iml" filepath="$PROJECT_DIR$/projects/projects.iml" />
       <module fileurl="file://$PROJECT_DIR$/real-time/real-time.iml" filepath="$PROJECT_DIR$/real-time/real-time.iml" />

@@ -15,14 +15,13 @@
         <module name="apache-spark" />
         <module name="apache-flink-pros" />
         <module name="collection" />
+        <module name="linux-shell" />
         <module name="apache-flink-java" />
         <module name="off-line" />
         <module name="apache-flink-pro" />
         <module name="services" />
-        <module name="practical-pros" />
         <module name="compute" />
         <module name="projects" />
-        <module name="linux-shell" />
         <module name="common" />
         <module name="producer" />
       </profile>
