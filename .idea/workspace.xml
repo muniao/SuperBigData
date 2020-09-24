@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90a70104-d045-4032-b1ae-c1e57f254983" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/practical-pros/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apache-flink-java/src/main/java/com/icocos/bigdata/dataset/DataSetDistributedCacheJava.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-flink-java/src/main/java/com/icocos/bigdata/dataset/DataSetDistributedCacheScala.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-flink-scala/src/main/scala/com/icocos/bigdata/dataset/DataSetDistributedCacheScala.scala" beforeDir="false" afterPath="$PROJECT_DIR$/apache-flink-scala/src/main/scala/com/icocos/bigdata/dataset/DataSetDistributedCacheScala.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-flink-scala/target/classes/com/icocos/bigdata/dataset/DataSetCounterScala$$anon$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/apache-flink-scala/target/classes/com/icocos/bigdata/dataset/DataSetCounterScala$$anon$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-flink-scala/target/classes/com/icocos/bigdata/dataset/DataSetCounterScala$.class" beforeDir="false" afterPath="$PROJECT_DIR$/apache-flink-scala/target/classes/com/icocos/bigdata/dataset/DataSetCounterScala$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-flink-scala/target/classes/com/icocos/bigdata/dataset/DataSetCounterScala.class" beforeDir="false" afterPath="$PROJECT_DIR$/apache-flink-scala/target/classes/com/icocos/bigdata/dataset/DataSetCounterScala.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +76,7 @@
       <recent name="$PROJECT_DIR$/apache-flink-pros/src/test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DataSetCounterJava">
+  <component name="RunManager" selected="Application.DataSetDistributedCacheJava">
     <configuration name="DataSetCounterJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.icocos.bigdata.dataset.DataSetCounterJava" />
@@ -90,6 +94,34 @@
     <configuration name="DataSetCounterScala" type="Application" factoryName="Application" temporary="true">
       <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.icocos.bigdata.dataset.DataSetCounterScala" />
+      <module name="apache-flink-scala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.icocos.bigdata.dataset.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataSetDistributedCacheJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.icocos.bigdata.dataset.DataSetDistributedCacheJava" />
+      <module name="apache-flink-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.icocos.bigdata.dataset.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataSetDistributedCacheScala" type="Application" factoryName="Application" temporary="true">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.icocos.bigdata.dataset.DataSetDistributedCacheScala" />
       <module name="apache-flink-scala" />
       <extension name="coverage">
         <pattern>
@@ -129,33 +161,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataSetTransformationScala (1)" type="Application" factoryName="Application" temporary="true">
-      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.icocos.bigdata.dataset.DataSetTransformationScala" />
-      <module name="apache-flink-scala" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.icocos.bigdata.dataset.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.DataSetTransformationScala (1)" />
       <item itemvalue="Application.DataSetSinkScala" />
       <item itemvalue="Application.DataSetSinkJava" />
       <item itemvalue="Application.DataSetCounterJava" />
+      <item itemvalue="Application.DataSetDistributedCacheJava" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DataSetDistributedCacheJava" />
+        <item itemvalue="Application.DataSetDistributedCacheScala" />
         <item itemvalue="Application.DataSetCounterJava" />
         <item itemvalue="Application.DataSetCounterScala" />
         <item itemvalue="Application.DataSetSinkJava" />
-        <item itemvalue="Application.DataSetSinkScala" />
-        <item itemvalue="Application.DataSetTransformationScala (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +194,7 @@
       <workItem from="1600768273027" duration="416000" />
       <workItem from="1600849603466" duration="2236000" />
       <workItem from="1600863219471" duration="7126000" />
-      <workItem from="1600922826217" duration="2860000" />
+      <workItem from="1600922826217" duration="5793000" />
     </task>
     <servers />
   </component>
@@ -190,64 +208,64 @@
     <state x="1888" y="-157" key="#Project_Structure/0.23.1440.832/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600862878086" />
     <state x="1888" y="-47" key="#Project_Structure/0.23.1440.833/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600864899050" />
     <state x="336" y="23" key="#Project_Structure/0.23.1440.835@0.23.1440.835" timestamp="1600850203573" />
-    <state x="2138" y="133" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1600924825605">
+    <state x="2138" y="133" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1600926078795">
       <screen x="1440" y="-157" width="1920" height="1057" />
     </state>
-    <state x="2138" y="133" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.1440.836/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600924825605" />
-    <state x="1539" y="-80" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600925435431">
+    <state x="2138" y="133" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.1440.836/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600926078795" />
+    <state x="1539" y="-80" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600931162361">
       <screen x="1440" y="-157" width="1920" height="1057" />
     </state>
     <state x="1539" y="-80" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.832/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600863014624" />
     <state x="1539" y="-80" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.833/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600864245597" />
     <state x="74" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.835/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600683405147" />
     <state x="74" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.835@0.23.1440.835" timestamp="1600851193211" />
-    <state x="1539" y="-80" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.836/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600925435431" />
+    <state x="1539" y="-80" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.836/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600931162361" />
     <state x="2141" y="293" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog" timestamp="1600690642357">
       <screen x="1440" y="-157" width="1920" height="1057" />
     </state>
     <state x="2141" y="293" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog/0.23.1440.833/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600690642357" />
-    <state x="2213" y="85" key="#com.intellij.ide.util.MemberChooser" timestamp="1600925120886">
+    <state x="2213" y="85" key="#com.intellij.ide.util.MemberChooser" timestamp="1600930928318">
       <screen x="1440" y="-157" width="1920" height="1057" />
     </state>
     <state x="2213" y="85" key="#com.intellij.ide.util.MemberChooser/0.23.1440.833/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600870014139" />
     <state x="2213" y="85" key="#com.intellij.ide.util.MemberChooser/0.23.1440.835/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600837444191" />
-    <state x="2213" y="85" key="#com.intellij.ide.util.MemberChooser/0.23.1440.836/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600925120886" />
+    <state x="2213" y="85" key="#com.intellij.ide.util.MemberChooser/0.23.1440.836/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600930928318" />
     <state x="1929" y="89" width="1158" height="564" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1600676885863">
       <screen x="1440" y="-157" width="1920" height="1057" />
     </state>
     <state x="1929" y="89" width="1158" height="564" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.23.1440.836/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600676885863" />
-    <state width="1878" height="230" key="GridCell.Tab.0.bottom" timestamp="1600925440680">
+    <state width="1878" height="180" key="GridCell.Tab.0.bottom" timestamp="1600931096137">
       <screen x="1440" y="-157" width="1920" height="1057" />
     </state>
     <state width="1878" height="522" key="GridCell.Tab.0.bottom/0.23.1440.832/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600863018684" />
     <state width="1878" height="230" key="GridCell.Tab.0.bottom/0.23.1440.833/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600870374051" />
     <state width="1878" height="474" key="GridCell.Tab.0.bottom/0.23.1440.835/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600683592986" />
     <state width="1398" height="121" key="GridCell.Tab.0.bottom/0.23.1440.835@0.23.1440.835" timestamp="1600851845928" />
-    <state width="1878" height="230" key="GridCell.Tab.0.bottom/0.23.1440.836/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600925440680" />
-    <state width="1878" height="230" key="GridCell.Tab.0.center" timestamp="1600925440679">
+    <state width="1878" height="180" key="GridCell.Tab.0.bottom/0.23.1440.836/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600931096137" />
+    <state width="1878" height="180" key="GridCell.Tab.0.center" timestamp="1600931096136">
       <screen x="1440" y="-157" width="1920" height="1057" />
     </state>
     <state width="1878" height="522" key="GridCell.Tab.0.center/0.23.1440.832/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600863018683" />
     <state width="1878" height="230" key="GridCell.Tab.0.center/0.23.1440.833/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600870374051" />
     <state width="1878" height="474" key="GridCell.Tab.0.center/0.23.1440.835/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600683592985" />
     <state width="1398" height="121" key="GridCell.Tab.0.center/0.23.1440.835@0.23.1440.835" timestamp="1600851845927" />
-    <state width="1878" height="230" key="GridCell.Tab.0.center/0.23.1440.836/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600925440679" />
-    <state width="1878" height="230" key="GridCell.Tab.0.left" timestamp="1600925440679">
+    <state width="1878" height="180" key="GridCell.Tab.0.center/0.23.1440.836/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600931096136" />
+    <state width="1878" height="180" key="GridCell.Tab.0.left" timestamp="1600931096135">
       <screen x="1440" y="-157" width="1920" height="1057" />
     </state>
     <state width="1878" height="522" key="GridCell.Tab.0.left/0.23.1440.832/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600863018682" />
     <state width="1878" height="230" key="GridCell.Tab.0.left/0.23.1440.833/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600870374050" />
     <state width="1878" height="474" key="GridCell.Tab.0.left/0.23.1440.835/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600683592985" />
     <state width="1398" height="121" key="GridCell.Tab.0.left/0.23.1440.835@0.23.1440.835" timestamp="1600851845927" />
-    <state width="1878" height="230" key="GridCell.Tab.0.left/0.23.1440.836/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600925440679" />
-    <state width="1878" height="230" key="GridCell.Tab.0.right" timestamp="1600925440680">
+    <state width="1878" height="180" key="GridCell.Tab.0.left/0.23.1440.836/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600931096135" />
+    <state width="1878" height="180" key="GridCell.Tab.0.right" timestamp="1600931096136">
       <screen x="1440" y="-157" width="1920" height="1057" />
     </state>
     <state width="1878" height="522" key="GridCell.Tab.0.right/0.23.1440.832/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600863018684" />
     <state width="1878" height="230" key="GridCell.Tab.0.right/0.23.1440.833/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600870374051" />
     <state width="1878" height="474" key="GridCell.Tab.0.right/0.23.1440.835/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600683592985" />
     <state width="1398" height="121" key="GridCell.Tab.0.right/0.23.1440.835@0.23.1440.835" timestamp="1600851845927" />
-    <state width="1878" height="230" key="GridCell.Tab.0.right/0.23.1440.836/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600925440680" />
+    <state width="1878" height="180" key="GridCell.Tab.0.right/0.23.1440.836/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600931096136" />
     <state width="1878" height="358" key="GridCell.Tab.1.bottom" timestamp="1600753436486">
       <screen x="1440" y="-157" width="1920" height="1057" />
     </state>
@@ -290,11 +308,11 @@
       <screen x="0" y="23" width="1440" height="833" />
     </state>
     <state x="0" y="23" width="1440" height="806" maximized="true" key="dock-window-1/0.23.1440.833/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600688437715" />
-    <state x="2106" y="-32" width="588" height="807" key="find.popup" timestamp="1600923363617">
+    <state x="2106" y="-32" width="588" height="807" key="find.popup" timestamp="1600925718793">
       <screen x="1440" y="-157" width="1920" height="1057" />
     </state>
     <state x="2106" y="-32" width="588" height="807" key="find.popup/0.23.1440.833/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600864826927" />
-    <state x="2106" y="-32" width="588" height="807" key="find.popup/0.23.1440.836/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600923363617" />
+    <state x="2106" y="-32" width="588" height="807" key="find.popup/0.23.1440.836/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600925718793" />
     <state x="1838" y="12" key="new project wizard" timestamp="1600925603170">
       <screen x="1440" y="-157" width="1920" height="1057" />
     </state>
