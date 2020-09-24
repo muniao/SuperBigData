@@ -17,6 +17,7 @@
         <module>compute</module>
         <module>linux-shell</module>
         <module>off-line</module>
+        <module>practical-pros</module>
         <module>producer</module>
         <module>real-time</module>
         <module>services</module>
