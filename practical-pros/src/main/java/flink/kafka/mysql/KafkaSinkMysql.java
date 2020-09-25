@@ -18,8 +18,10 @@ import java.util.Properties;
 
 /**
  * @author iCocos
+ * 参考：https://blog.csdn.net/xiaopeigen/article/details/107219605
  */
 public class KafkaSinkMysql {
+
     public static void main(String[] args) throws Exception {
         final StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
         Properties props = new Properties();

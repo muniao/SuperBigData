@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90a70104-d045-4032-b1ae-c1e57f254983" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/apache-flink-java/src/main/java/com/icocos/bigdata/tablesql/TableApiAndSQLJava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apache-flink-scala/src/main/scala/com/icocos/bigdata/tablesql/TableApiAndSQLScala.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-flink-scala/src/main/scala/com/icocos/bigdata/tablesql/TableApiAndSQLScala.scala" beforeDir="false" afterPath="$PROJECT_DIR$/apache-flink-scala/src/main/scala/com/icocos/bigdata/tablesql/TableApiAndSQLScala.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practical-pros/src/main/java/flink/kafka/mysql/KafkaSinkMysql.java" beforeDir="false" afterPath="$PROJECT_DIR$/practical-pros/src/main/java/flink/kafka/mysql/KafkaSinkMysql.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +194,7 @@
       <workItem from="1600863219471" duration="7126000" />
       <workItem from="1600922826217" duration="7038000" />
       <workItem from="1601016988883" duration="4032000" />
-      <workItem from="1601027124342" duration="1381000" />
+      <workItem from="1601027124342" duration="1943000" />
     </task>
     <servers />
   </component>
