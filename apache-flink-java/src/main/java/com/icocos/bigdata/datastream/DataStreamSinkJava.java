@@ -1,14 +1,17 @@
 package com.icocos.bigdata.datastream;
 
-import org.apache.flink.api.java.ExecutionEnvironment;
+import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 
 public class DataStreamSinkJava {
     public static void main(String[] args) throws Exception {
-        ExecutionEnvironment env = ExecutionEnvironment.getExecutionEnvironment();
+
+        // 1. 获取上下文
+        final StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
         sinkFunction(env);
+        env.execute();
     }
 
-    public static void sinkFunction(ExecutionEnvironment env) throws Exception {
+    public static void sinkFunction(StreamExecutionEnvironment env) throws Exception {
 
     }
 
