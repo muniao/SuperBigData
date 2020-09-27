@@ -11,6 +11,7 @@ import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 import java.util.ArrayList;
 import java.util.List;
 
+//https://ci.apache.org/projects/flink/flink-docs-release-1.10/dev/datastream_api.html
 public class DataStreamTransformationJava {
 
     public static void main(String[] args) throws Exception {

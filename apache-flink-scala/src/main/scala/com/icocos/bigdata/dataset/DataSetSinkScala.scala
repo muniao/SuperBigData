@@ -4,6 +4,7 @@ import org.apache.flink.api.scala.ExecutionEnvironment
 import org.apache.flink.api.scala._
 import org.apache.flink.core.fs.FileSystem.WriteMode
 
+//https://ci.apache.org/projects/flink/flink-docs-release-1.10/dev/batch/index.html
 object DataSetSinkScala {
 
   def main(args: Array[String]): Unit = {

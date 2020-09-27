@@ -7,6 +7,9 @@ import org.apache.flink.streaming.api.functions.source.SourceFunction
 import org.apache.flink.streaming.api.scala.StreamExecutionEnvironment
 import org.apache.flink.streaming.api.windowing.time.Time
 
+import org.apache.flink.api.scala._
+
+//https://ci.apache.org/projects/flink/flink-docs-release-1.10/dev/datastream_api.html
 object DataStreamSourceScala {
 
   def main(args: Array[String]): Unit = {

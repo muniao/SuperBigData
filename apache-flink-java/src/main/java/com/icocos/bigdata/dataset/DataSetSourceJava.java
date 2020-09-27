@@ -6,6 +6,7 @@ import org.apache.flink.configuration.Configuration;
 import java.util.ArrayList;
 import java.util.List;
 
+//https://ci.apache.org/projects/flink/flink-docs-release-1.10/dev/batch/index.html
 public class DataSetSourceJava {
     public static void main(String[] args) throws Exception {
         ExecutionEnvironment env = ExecutionEnvironment.getExecutionEnvironment();

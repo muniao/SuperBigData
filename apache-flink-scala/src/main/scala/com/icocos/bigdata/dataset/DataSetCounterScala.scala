@@ -7,6 +7,7 @@ import org.apache.flink.configuration.Configuration
 import org.apache.flink.api.common.accumulators.LongCounter
 import org.apache.flink.core.fs.FileSystem.WriteMode
 
+//https://ci.apache.org/projects/flink/flink-docs-release-1.10/dev/batch/index.html
 object DataSetCounterScala {
 
   def main(args: Array[String]): Unit = {

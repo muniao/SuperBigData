@@ -6,6 +6,7 @@ import org.apache.flink.api.scala.ExecutionEnvironment
 import org.apache.flink.api.scala._
 import org.apache.flink.configuration.Configuration
 
+//https://ci.apache.org/projects/flink/flink-docs-release-1.10/dev/batch/index.html
 object DataSetDistributedCacheScala {
   def main(args: Array[String]): Unit = {
     val env = ExecutionEnvironment.getExecutionEnvironment

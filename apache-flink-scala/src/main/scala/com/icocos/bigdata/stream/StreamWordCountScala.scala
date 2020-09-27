@@ -3,6 +3,8 @@ package com.icocos.bigdata.stream
 import org.apache.flink.api.java.utils.ParameterTool
 import org.apache.flink.streaming.api.scala.StreamExecutionEnvironment
 
+import org.apache.flink.api.scala._
+
 object StreamWordCountScala {
 
   def main(args: Array[String]): Unit = {
@@ -31,9 +33,6 @@ object StreamWordCountScala {
         System.err.println("端口未设置，使用默认端口9999")
     }
     val text = env.socketTextStream(host, port)
-
-    // 导入隐式转换
-    import org.apache.flink.api.scala._
 
     // 3. 转换操作
     text.flatMap(_.split(","))

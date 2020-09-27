@@ -2,6 +2,9 @@ package com.icocos.bigdata.datastream
 
 import org.apache.flink.streaming.api.scala.StreamExecutionEnvironment
 
+import org.apache.flink.api.scala._
+
+//https://ci.apache.org/projects/flink/flink-docs-release-1.10/dev/datastream_api.html
 object DataStreamTransformationScala {
 
   def main(args: Array[String]): Unit = {
@@ -34,21 +37,21 @@ object DataStreamTransformationScala {
   }
 
   def splitFunction(env: StreamExecutionEnvironment): Unit = {
-    val data = env.socketTextStream("localhost", 9999)
-    val split = data.split(
-      (num: Int) =>
-        (num % 2) match {
-          case 0 => List("even")
-          case 1 => List("odd")
-        }
-    )
+//    val data = env.socketTextStream("localhost", 9999)
+//    val split = data.split(
+//      (num: Int) =>
+//        (num % 2) match {
+//          case 0 => List("even")
+//          case 1 => List("odd")
+//        }
+//    )
   }
 
   def selectFunction(env: StreamExecutionEnvironment): Unit = {
-    val data = env.socketTextStream("localhost", 9999)
-    val even = split.select("even")
-    val odd = split.select("odd")
-    val all = split.select("even","odd")
+//    val data = env.socketTextStream("localhost", 9999)
+//    val even = split.select("even")
+//    val odd = split.select("odd")
+//    val all = split.select("even","odd")
   }
 
 }

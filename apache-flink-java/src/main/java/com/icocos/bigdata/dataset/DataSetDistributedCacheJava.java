@@ -9,6 +9,7 @@ import org.apache.flink.configuration.Configuration;
 import java.io.File;
 import java.util.List;
 
+//https://ci.apache.org/projects/flink/flink-docs-release-1.10/dev/batch/index.html
 public class DataSetDistributedCacheJava {
 
     public static void main(String[] args) throws Exception {

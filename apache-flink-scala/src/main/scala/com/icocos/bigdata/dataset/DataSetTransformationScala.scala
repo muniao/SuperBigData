@@ -7,6 +7,7 @@ import org.apache.flink.api.scala._
 
 import scala.collection.mutable.ListBuffer
 
+//https://ci.apache.org/projects/flink/flink-docs-release-1.10/dev/batch/index.html
 object DataSetTransformationScala {
 
   def main(args: Array[String]): Unit = {

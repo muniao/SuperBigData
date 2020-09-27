@@ -13,6 +13,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+//https://ci.apache.org/projects/flink/flink-docs-release-1.10/dev/batch/index.html
 public class DataSetTransformationJava {
 
     public static void main(String[] args) throws Exception {

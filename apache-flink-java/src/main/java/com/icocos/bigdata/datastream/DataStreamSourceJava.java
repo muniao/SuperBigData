@@ -13,6 +13,7 @@ import org.apache.flink.streaming.api.functions.source.SourceFunction;
 import org.apache.flink.streaming.api.windowing.time.Time;
 import org.apache.flink.util.Collector;
 
+//https://ci.apache.org/projects/flink/flink-docs-release-1.10/dev/datastream_api.html
 public class DataStreamSourceJava {
 
     public static void main(String[] args) throws Exception {

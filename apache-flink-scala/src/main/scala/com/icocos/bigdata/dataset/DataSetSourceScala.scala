@@ -3,6 +3,9 @@ package com.icocos.bigdata.dataset
 import org.apache.flink.api.scala.ExecutionEnvironment
 import org.apache.flink.configuration.Configuration
 
+import org.apache.flink.api.scala._
+
+//https://ci.apache.org/projects/flink/flink-docs-release-1.10/dev/batch/index.html
 object DataSetSourceScala {
 
   def main(args: Array[String]): Unit = {
@@ -35,14 +38,14 @@ object DataSetSourceScala {
    * 从CSV文件创建
    */
   def fromCSVFile(env: ExecutionEnvironment): Unit = {
-//    val filePath = "/Users/iCocos/Desktop/BigData/SuperBigData/input.csv"
-//    env.readCsvFile[(String,Int,String)](filePath,ignoreFirstLine=true).print()
-//    env.readCsvFile[(String,Int)](filePath,ignoreFirstLine=true,includedFields = Array(0,1)).print()
-//    // Case Class
-//    case class MyCaseClass(name: String,age:Int)
-//    env.readCsvFile[MyCaseClass](filePath,ignoreFirstLine=true,includedFields = Array(0,1)).print()
-//    // POJO
-//    env.readCsvFile[PojoPerson](filePath,ignoreFirstLine=true,pojoFields = Array("anme","age","work")).print()
+    val filePath = "/Users/iCocos/Desktop/BigData/SuperBigData/input.csv"
+    env.readCsvFile[(String,Int,String)](filePath,ignoreFirstLine=true).print()
+    env.readCsvFile[(String,Int)](filePath,ignoreFirstLine=true,includedFields = Array(0,1)).print()
+    // Case Class
+    case class MyCaseClass(name: String,age:Int)
+    env.readCsvFile[MyCaseClass](filePath,ignoreFirstLine=true,includedFields = Array(0,1)).print()
+    // POJO
+    //env.readCsvFile[PojoPerson](filePath,ignoreFirstLine=true,pojoFields = Array("anme","age","work")).print()
   }
 
   /**
